@@ -13,6 +13,7 @@ class Complex{
             return Complex(real+c.real,imag+c.imag);
         }
 
+        
         Complex subtract(const Complex &c){
             return Complex(real-c.real,imag-c.imag);
         }
