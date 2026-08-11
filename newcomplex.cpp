@@ -10,11 +10,12 @@ public:
     Complex(int r = 0, int i = 0) : real(r), imag(i) {} 
 
     // Fixed capitalization, typos, and added missing semicolon
-    Complex add(Complex x1, Complex x2) { 
-        Complex x3; 
-        x3.real = x1.real + x2.real; 
-        x3.imag = x1.imag + x2.imag; // Fixed .image to .imag
-        return x3; // Added missing semicolon
+    int add(Complex x1) { 
+        
+        real = real +x1.real;
+     
+        image = image + x1.image;// Fixed .image to .imag
+        return 0;//ng semicolon
     } 
 
     Complex subtract(const Complex &c) { 
