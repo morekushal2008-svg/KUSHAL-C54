@@ -1,10 +1,10 @@
-#include <iostream>
+#include <iostream>                                    
 using namespace std;
 
 class Time {
 private:
     int hours, minutes;
-
+  
 public:
     Time(int h = 0, int m = 0) : hours(h), minutes(m) {}
 

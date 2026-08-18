@@ -7,7 +7,7 @@ private:
 
 public:
     Fraction(int n = 0, int d = 1) : numerator(n), denominator(d) {}
-
+                                                                 
     Fraction add(const Fraction &f) {
         return Fraction(numerator * f.denominator +
                         f.numerator * denominator,

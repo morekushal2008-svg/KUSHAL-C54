@@ -10,7 +10,7 @@ private:
     float price;
     float totalBill;
 
-public:
+//public:
     void getData(){
         cout<<"Enter Product Name: ";
         getline(cin>>ws,productName);
